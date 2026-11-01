@@ -13,10 +13,10 @@
 ### 任务 1 · `BallPos` + 发布/订阅
 
 - 包名：ball_interfaces
-- 话题名：<ball_pos>
+- 话题名：ball_pos
 - 发布频率：<2 Hz>
 - 消息字段：<int32 id / float32 x / float32 y>
-- 做了什么：<一句话说清，比如「定时器每 0.5 s 依次发 id=1/2/3 三条，订阅端打印」>
+- 做了什么：在发布端中，每0.5s发布一次球的信息（2Hz)
 - 验证结果：<`ros2 topic info` 显示 Publisher 1 / Subscription 1；订阅端持续收到>
 
 ### 任务 2 · 三个球的目标点导航
